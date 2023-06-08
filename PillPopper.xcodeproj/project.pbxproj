@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61365D62A0EC8EB00943264 /* PillPopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365D52A0EC8EB00943264 /* PillPopperApp.swift */; };
+		D61365D82A0EC8EB00943264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365D72A0EC8EB00943264 /* ContentView.swift */; };
+		D61365DA2A0EC8EC00943264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61365D92A0EC8EC00943264 /* Assets.xcassets */; };
+		D61365DD2A0EC8EC00943264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61365DC2A0EC8EC00943264 /* Preview Assets.xcassets */; };
+		D61365E72A0EC8ED00943264 /* PillPopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365E62A0EC8ED00943264 /* PillPopperTests.swift */; };
+		D61365F12A0EC8ED00943264 /* PillPopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365F02A0EC8ED00943264 /* PillPopperUITests.swift */; };
+		D61365F32A0EC8ED00943264 /* PillPopperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365F22A0EC8ED00943264 /* PillPopperUITestsLaunchTests.swift */; };
+		D61366002A0ED8A800943264 /* NewScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61365FF2A0ED8A800943264 /* NewScheduleView.swift */; };
+		D61366022A115AED00943264 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61366012A115AED00943264 /* NotificationModel.swift */; };
+		D61CC91B2A15665A0050EE89 /* TakeYourPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */; };
+		D6526BEF2A169FA2001AB7A6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6526BEE2A169FA2001AB7A6 /* AppState.swift */; };
+		D69A040C2A26D95F00225E85 /* TimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A040B2A26D95F00225E85 /* TimeLine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D61365E32A0EC8ED00943264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61365CA2A0EC8EB00943264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61365D12A0EC8EB00943264;
+			remoteInfo = PillPopper;
+		};
+		D61365ED2A0EC8ED00943264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61365CA2A0EC8EB00943264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61365D12A0EC8EB00943264;
+			remoteInfo = PillPopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61365D22A0EC8EB00943264 /* PillPopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillPopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61365D52A0EC8EB00943264 /* PillPopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPopperApp.swift; sourceTree = "<group>"; };
+		D61365D72A0EC8EB00943264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D61365D92A0EC8EC00943264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61365DC2A0EC8EC00943264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D61365E22A0EC8ED00943264 /* PillPopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillPopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61365E62A0EC8ED00943264 /* PillPopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPopperTests.swift; sourceTree = "<group>"; };
+		D61365EC2A0EC8ED00943264 /* PillPopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillPopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61365F02A0EC8ED00943264 /* PillPopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPopperUITests.swift; sourceTree = "<group>"; };
+		D61365F22A0EC8ED00943264 /* PillPopperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPopperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D61365FF2A0ED8A800943264 /* NewScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleView.swift; sourceTree = "<group>"; };
+		D61366012A115AED00943264 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeYourPillView.swift; sourceTree = "<group>"; };
+		D6526BEE2A169FA2001AB7A6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D69A040B2A26D95F00225E85 /* TimeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61365CF2A0EC8EB00943264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365DF2A0EC8ED00943264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365E92A0EC8ED00943264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61365C92A0EC8EB00943264 = {
+			isa = PBXGroup;
+			children = (
+				D61365D42A0EC8EB00943264 /* PillPopper */,
+				D61365E52A0EC8ED00943264 /* PillPopperTests */,
+				D61365EF2A0EC8ED00943264 /* PillPopperUITests */,
+				D61365D32A0EC8EB00943264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61365D32A0EC8EB00943264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61365D22A0EC8EB00943264 /* PillPopper.app */,
+				D61365E22A0EC8ED00943264 /* PillPopperTests.xctest */,
+				D61365EC2A0EC8ED00943264 /* PillPopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61365D42A0EC8EB00943264 /* PillPopper */ = {
+			isa = PBXGroup;
+			children = (
+				D61365D52A0EC8EB00943264 /* PillPopperApp.swift */,
+				D61365D72A0EC8EB00943264 /* ContentView.swift */,
+				D61365FF2A0ED8A800943264 /* NewScheduleView.swift */,
+				D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */,
+				D61365D92A0EC8EC00943264 /* Assets.xcassets */,
+				D61365DB2A0EC8EC00943264 /* Preview Content */,
+				D61366012A115AED00943264 /* NotificationModel.swift */,
+				D6526BEE2A169FA2001AB7A6 /* AppState.swift */,
+				D69A040B2A26D95F00225E85 /* TimeLine.swift */,
+			);
+			path = PillPopper;
+			sourceTree = "<group>";
+		};
+		D61365DB2A0EC8EC00943264 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D61365DC2A0EC8EC00943264 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D61365E52A0EC8ED00943264 /* PillPopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D61365E62A0EC8ED00943264 /* PillPopperTests.swift */,
+			);
+			path = PillPopperTests;
+			sourceTree = "<group>";
+		};
+		D61365EF2A0EC8ED00943264 /* PillPopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D61365F02A0EC8ED00943264 /* PillPopperUITests.swift */,
+				D61365F22A0EC8ED00943264 /* PillPopperUITestsLaunchTests.swift */,
+			);
+			path = PillPopperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61365D12A0EC8EB00943264 /* PillPopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61365F62A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopper" */;
+			buildPhases = (
+				D61365CE2A0EC8EB00943264 /* Sources */,
+				D61365CF2A0EC8EB00943264 /* Frameworks */,
+				D61365D02A0EC8EB00943264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillPopper;
+			productName = PillPopper;
+			productReference = D61365D22A0EC8EB00943264 /* PillPopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61365E12A0EC8ED00943264 /* PillPopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61365F92A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopperTests" */;
+			buildPhases = (
+				D61365DE2A0EC8ED00943264 /* Sources */,
+				D61365DF2A0EC8ED00943264 /* Frameworks */,
+				D61365E02A0EC8ED00943264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61365E42A0EC8ED00943264 /* PBXTargetDependency */,
+			);
+			name = PillPopperTests;
+			productName = PillPopperTests;
+			productReference = D61365E22A0EC8ED00943264 /* PillPopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D61365EB2A0EC8ED00943264 /* PillPopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61365FC2A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopperUITests" */;
+			buildPhases = (
+				D61365E82A0EC8ED00943264 /* Sources */,
+				D61365E92A0EC8ED00943264 /* Frameworks */,
+				D61365EA2A0EC8ED00943264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61365EE2A0EC8ED00943264 /* PBXTargetDependency */,
+			);
+			name = PillPopperUITests;
+			productName = PillPopperUITests;
+			productReference = D61365EC2A0EC8ED00943264 /* PillPopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61365CA2A0EC8EB00943264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D61365D12A0EC8EB00943264 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D61365E12A0EC8ED00943264 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D61365D12A0EC8EB00943264;
+					};
+					D61365EB2A0EC8ED00943264 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D61365D12A0EC8EB00943264;
+					};
+				};
+			};
+			buildConfigurationList = D61365CD2A0EC8EB00943264 /* Build configuration list for PBXProject "PillPopper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61365C92A0EC8EB00943264;
+			productRefGroup = D61365D32A0EC8EB00943264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61365D12A0EC8EB00943264 /* PillPopper */,
+				D61365E12A0EC8ED00943264 /* PillPopperTests */,
+				D61365EB2A0EC8ED00943264 /* PillPopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61365D02A0EC8EB00943264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61365DD2A0EC8EC00943264 /* Preview Assets.xcassets in Resources */,
+				D61365DA2A0EC8EC00943264 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365E02A0EC8ED00943264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365EA2A0EC8ED00943264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61365CE2A0EC8EB00943264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69A040C2A26D95F00225E85 /* TimeLine.swift in Sources */,
+				D61366002A0ED8A800943264 /* NewScheduleView.swift in Sources */,
+				D61365D82A0EC8EB00943264 /* ContentView.swift in Sources */,
+				D61366022A115AED00943264 /* NotificationModel.swift in Sources */,
+				D6526BEF2A169FA2001AB7A6 /* AppState.swift in Sources */,
+				D61365D62A0EC8EB00943264 /* PillPopperApp.swift in Sources */,
+				D61CC91B2A15665A0050EE89 /* TakeYourPillView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365DE2A0EC8ED00943264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61365E72A0EC8ED00943264 /* PillPopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61365E82A0EC8ED00943264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61365F12A0EC8ED00943264 /* PillPopperUITests.swift in Sources */,
+				D61365F32A0EC8ED00943264 /* PillPopperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D61365E42A0EC8ED00943264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61365D12A0EC8EB00943264 /* PillPopper */;
+			targetProxy = D61365E32A0EC8ED00943264 /* PBXContainerItemProxy */;
+		};
+		D61365EE2A0EC8ED00943264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61365D12A0EC8EB00943264 /* PillPopper */;
+			targetProxy = D61365ED2A0EC8ED00943264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D61365F42A0EC8ED00943264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D61365F52A0EC8ED00943264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61365F72A0EC8ED00943264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PillPopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61365F82A0EC8ED00943264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PillPopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D61365FA2A0EC8ED00943264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillPopper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PillPopper";
+			};
+			name = Debug;
+		};
+		D61365FB2A0EC8ED00943264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillPopper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PillPopper";
+			};
+			name = Release;
+		};
+		D61365FD2A0EC8ED00943264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPopper;
+			};
+			name = Debug;
+		};
+		D61365FE2A0EC8ED00943264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinb.PillPopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPopper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61365CD2A0EC8EB00943264 /* Build configuration list for PBXProject "PillPopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61365F42A0EC8ED00943264 /* Debug */,
+				D61365F52A0EC8ED00943264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61365F62A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61365F72A0EC8ED00943264 /* Debug */,
+				D61365F82A0EC8ED00943264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61365F92A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61365FA2A0EC8ED00943264 /* Debug */,
+				D61365FB2A0EC8ED00943264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61365FC2A0EC8ED00943264 /* Build configuration list for PBXNativeTarget "PillPopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61365FD2A0EC8ED00943264 /* Debug */,
+				D61365FE2A0EC8ED00943264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61365CA2A0EC8EB00943264 /* Project object */;
+}
