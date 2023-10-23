@@ -18,6 +18,7 @@
 		D61366022A115AED00943264 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61366012A115AED00943264 /* NotificationModel.swift */; };
 		D61CC91B2A15665A0050EE89 /* TakeYourPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */; };
 		D6526BEF2A169FA2001AB7A6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6526BEE2A169FA2001AB7A6 /* AppState.swift */; };
+		D6917BFE2AE6AE1E001245AE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6917BFD2AE6AE1E001245AE /* TestView.swift */; };
 		D69A040C2A26D95F00225E85 /* TimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A040B2A26D95F00225E85 /* TimeLine.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		D61366012A115AED00943264 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeYourPillView.swift; sourceTree = "<group>"; };
 		D6526BEE2A169FA2001AB7A6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D6917BFD2AE6AE1E001245AE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		D69A040B2A26D95F00225E85 /* TimeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				D61365D72A0EC8EB00943264 /* ContentView.swift */,
 				D61365FF2A0ED8A800943264 /* NewScheduleView.swift */,
 				D61CC91A2A15665A0050EE89 /* TakeYourPillView.swift */,
+				D6917BFD2AE6AE1E001245AE /* TestView.swift */,
 				D61365D92A0EC8EC00943264 /* Assets.xcassets */,
 				D61365DB2A0EC8EC00943264 /* Preview Content */,
 				D61366012A115AED00943264 /* NotificationModel.swift */,
@@ -276,6 +279,7 @@
 				D61366002A0ED8A800943264 /* NewScheduleView.swift in Sources */,
 				D61365D82A0EC8EB00943264 /* ContentView.swift in Sources */,
 				D61366022A115AED00943264 /* NotificationModel.swift in Sources */,
+				D6917BFE2AE6AE1E001245AE /* TestView.swift in Sources */,
 				D6526BEF2A169FA2001AB7A6 /* AppState.swift in Sources */,
 				D61365D62A0EC8EB00943264 /* PillPopperApp.swift in Sources */,
 				D61CC91B2A15665A0050EE89 /* TakeYourPillView.swift in Sources */,

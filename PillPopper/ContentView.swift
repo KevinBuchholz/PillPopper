@@ -10,17 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-        VStack {
-            Image(systemName: "pill.fill")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-                .padding()
-            Text("Hello, Kevin.")
-            Text("Let's make sure you take your medicine.")
-            NavigationLink("New schedule", destination: NewScheduleView())
-        }
+            VStack {
+                Image(systemName: "pill.fill")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                    .padding()
+                Text("Hello, Kevin.")
+                Text("Let's make sure you take your medicine.")
+                NavigationLink("New schedule", destination: NewScheduleView())
+            }
             .padding()
-            
         }
     }
 }

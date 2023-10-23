@@ -53,12 +53,19 @@ import SwiftUI
 //
 
 struct NewScheduleView: View {
-   
+    func saveArrrayToStorage(array: [Date]) {
+        UserDefaults.standard.set(array, forKey: "timeLineKey")
+    }
+    
+    func loadArrayFromStorage() -> [Date]? {
+        return UserDefaults.standard.array(forKey: "timeLineKey") as? [Date]
+    }
     
     var userLocale = Locale.autoupdatingCurrent
     var gregorianCalendar = Calendar(identifier: .gregorian)
     @State var takePill : Date = Date()
     @State var timeLine = [Date]()
+    
     
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -87,6 +94,7 @@ struct NewScheduleView: View {
                 Button("Add time.") {
                     NotificationManager.instance.scheduleNotification(date: takePill)
                     timeLine.append(takePill)
+                    saveArrrayToStorage(array: timeLine)
                     print("\(Date())")
                     print("\(takePill.formatted())")
                     print("The time line is: \(timeLine)")
@@ -95,8 +103,19 @@ struct NewScheduleView: View {
                
                 Button("Clear All") {
                     NotificationManager.instance.cancelNotifications()
+                    timeLine.removeAll()
+                }
+                
+                Button("Print Timeline") {
+                    print(timeLine)
                 }
                 .padding()
+            }
+        }.onAppear() {
+            if let timeLine = loadArrayFromStorage() {
+                print(timeLine)
+            } else {
+                print("failed to load timeLine")
             }
         }
     }
