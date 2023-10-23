@@ -21,15 +21,10 @@ struct TestView: View {
                 
                 LazyHStack(alignment: .top, spacing: 15, pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/, content: {
                     
-//                    RoundedRectangle(cornerRadius: 15)
-//                    .aspectRatio(1, contentMode: .fit)
-//                    .frame(width: .infinity, height: .maximum(500, 500))
-//                    .hidden()
-                    
                     ForEach(1...10, id: \.self) { count in
                         RoundedRectangle(cornerRadius: 15)
-                            .aspectRatio(1, contentMode: .fill)
-                            .frame(width: .infinity, height: .maximum(250, 250), alignment: .trailing)
+                            .aspectRatio(1, contentMode: .fit)
+//                            .frame(maxWidth: .infinity, maxHeight: 250, alignment: .trailing)
                             .foregroundColor(.pink)
                             .opacity(0.1)
                             .overlay(
@@ -51,7 +46,7 @@ struct TestView: View {
             
             RoundedRectangle(cornerRadius: 15)
                 .padding()
-                .frame(width: .infinity, height: 200)
+                .frame(maxWidth: .infinity, maxHeight: 200)
             
             Spacer()
             
