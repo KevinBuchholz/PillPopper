@@ -16,7 +16,7 @@ struct PillPopperApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestView()
 //                .environmentObject(takePill)
 //                .environmentObject(timeLine)
         }
