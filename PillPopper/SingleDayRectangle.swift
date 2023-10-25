@@ -9,19 +9,7 @@ import SwiftUI
 
 struct SingleDayRectangle: View {
     var body: some View {
-        ZStack{
-            
-            VStack{
-             
-                Text("Monday 12")
-                    .font(.largeTitle)
-                    .fontWeight(.ultraLight)
-                    .frame(
-                        maxWidth: .infinity,
-                        maxHeight: .infinity,
-                        alignment: .topTrailing)
-                    .padding()
-            }
+        
             
             RoundedRectangle(cornerRadius: 15)
                 .aspectRatio(1, contentMode: .fit)
@@ -32,7 +20,15 @@ struct SingleDayRectangle: View {
                     RoundedRectangle(cornerRadius: 15)
                         .stroke(.black, lineWidth: 1)
                         .opacity(0.2))
-        }
+                .overlay(Text("Monday 12")
+                    .font(.largeTitle)
+                    .fontWeight(.ultraLight)
+                    .frame(
+                        maxWidth: .infinity,
+                        maxHeight: .infinity,
+                        alignment: .topTrailing)
+                        .padding())
+        
 //        .frame(maxWidth: .infinity,maxHeight: .infinity)
     }
 }
